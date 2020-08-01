@@ -1,0 +1,63 @@
+
+  html { 
+  background: url("https://images.unsplash.com/photo-1593024282550-af02e8726937?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background:none;
+    color:black;
+}
+form{
+    width:50%;
+    position:relative;
+    left:300px;
+    top:200px;
+}
+a{
+    margin:20px;
+    color:white !important;
+}
+.hidden{
+    display:none;
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    border: solid 1px white;
+}
+.logo{
+    float:left;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 25px;
+}
+.username{
+    float: right;
+    padding-top: 17px;
+    padding-right: 25px;
+}
+.logout button{
+    border: 2px solid white;
+    color: white;
+}
+.logout button:hover{
+    color: white;
+    background-color: black;
+}
+.logout{
+    float: right;
+    padding-right: 25px;
+    padding-top: 12px;
+}
+textarea{
+    width: 100%;
+    height: 520px;
+    resize:none;
+}
+.textarea{
+    padding: 40px;
+}
